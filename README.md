@@ -1,1 +1,1 @@
-# introduction-to-computer
+# gaenyeom-bagsal
