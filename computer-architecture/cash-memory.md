@@ -12,7 +12,7 @@ CPU의 클럭 속도가 매우 빨라짐에 따라 CPU 밖에 있는 DRAM과의 
 
 ### 메모리 계층 구조
 
-![메모리 계층 구조](images/memory-class.png)
+![메모리 계층 구조](../images/memory-class.png)
 
 메모리들은 프로그램이 실행하는 동안 데이터의 입출력을 담당한다. 즉, 실행에 필요한 데이터들을 저장하고 있다.
 
@@ -46,7 +46,7 @@ CPU가 메모리에 데이터를 요청할 때 우선적으로 캐시를 확인�
 ## 캐시 구조
 
 - Direct Mapped Cache : 
-![캐시 작동 방식](images/direct-mapped.png)
+![캐시 작동 방식](../images/direct-mapped.png)
 가장 기본적인 캐시 구조로, DRAM의 여러 주소가 캐시 메모리의 한 주소에 대응되는 다대일 방식이다.
 간단하고 빠르지만 대신 약점이 굉장히 큰데, Conflict miss 문제가 굉장히 큰 방식이다.
 
