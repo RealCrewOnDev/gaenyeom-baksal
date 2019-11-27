@@ -6,7 +6,7 @@
 
 ## 절차 지향 언어
 
-- C, Protran, Basic 등
+- C, Portran, Basic 등
 
 ### 장점
 
