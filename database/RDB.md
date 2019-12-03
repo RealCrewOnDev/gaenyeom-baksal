@@ -1,4 +1,4 @@
-# RDB(Relationship Database)
+# RDB(Relationship Database) </br> 관계형 데이터베이스
  - 고급언어를 기계언어로 바꾸어 해석하는 프로그램
  - 변환을 런타임(runtime) 전/후 함에 따라 차이가 있음
  
