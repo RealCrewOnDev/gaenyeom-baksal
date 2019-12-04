@@ -31,6 +31,7 @@ RDB는 데이터의 독립성이 높고 고수준의 DML(데이터 조작언어)
 
 ### RDBMS(Relational Database Management System)
 관계형 데이터베이스를 생성하고 수정하고 관리할 수 있는 소프트웨어
-  
+  #### SQL
+  #### 트랜잭션
  
  
