@@ -8,3 +8,8 @@
 - [중앙처리장치](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/computer-architecture/cpu.md)
 - [주 기억장치](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/computer-architecture/main_memory.md)  
 - [보조기억장치](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/computer-architecture/secondarymemory.md)
+
+
+### 운영체제  
+
+- [프로세스와 스레드](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/operating-system/Process.md)
