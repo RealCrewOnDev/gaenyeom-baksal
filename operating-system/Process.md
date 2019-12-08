@@ -65,8 +65,8 @@ CPU가 이전의 프로세스 상태를 PCB에 보관하고, 또 다른 프로�
 
 ### 참고자료  
 
-[](https://jhnyang.tistory.com/33)
-[](https://jhnyang.tistory.com/7)
+(https://jhnyang.tistory.com/33)
+
  
  
 
