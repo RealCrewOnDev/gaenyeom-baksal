@@ -13,11 +13,11 @@ public class Main {
 
 위 코드에서 `String url = "https://";` 구문이 실행된 뒤 스택과 힙은 아래와 같다.
 
-![gc](../images/jvm_gc1.png)
+![gc](../images/gc1.png)
 
 다음 구문인 `url += "yaboong.github.io";` 문자열 더하기 연산이 수행되는 과정에서, (String 은 불변객체이므로) 기존에 있던 "https://" 스트링에 "yaboong.github.io" 를 덧붙이는 것이 아니라, 문자열에 대한 더하기 연산이 수행된 결과가 새롭게 heap 영역에 할당된다. 그 결과를 그림으로 표현하면 아래와 같다.
 
-![gc](../images/jvm_gc2.png)
+![gc](../images/gc2.png)
 
 Stack 에는 새로운 변수가 할당되지 않는다. 문자열 더하기 연산의 결과인 "https://yaboong.github.io" 가 새롭게 heap 영역에 생성되고, 기존에 "https://" 를 레퍼런스 하고 있던 url 변수는 새롭게 생성된 문자열을 레퍼런스 하게 된다.
 
@@ -33,7 +33,7 @@ Garbage Collection 이라고 하면 garbage 들을 수집할 것 같지만 실�
 
 Garbage Collection 이 일어난 후의 메모리 상태는 아래와 같을 것이다.
 
-![gc](../images/jvm_gc3.png)
+![gc](../images/gc3.png)
 
 ## 가비지 컬렉터?
 
