@@ -55,7 +55,7 @@ CPU가 이전의 프로세스 상태를 PCB에 보관하고, 또 다른 프로�
 
 ## 프로세스 메모리 구조  
 
-![프로세스메모리구조](../images/프로세스와스레드.PNG)
+![프로세스메모리구조](../images/프로세스와스레드4.PNG)
 
 - Code 코드  
 - Data 전역변수  
@@ -66,6 +66,8 @@ CPU가 이전의 프로세스 상태를 PCB에 보관하고, 또 다른 프로�
 ### 참고자료  
 
 (https://jhnyang.tistory.com/33)
+(http://tcpschool.com/)  
+
 
  
  
