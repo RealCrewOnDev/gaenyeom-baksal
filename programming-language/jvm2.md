@@ -145,3 +145,53 @@ System.out.println(value);
 ![memory](../images/jvm_memory6.png)
 
 Object 타입의 데이터, 즉 heap 영역에 있는 데이터는 함수 내부에서 파라미터로 copied value 를 받아서 변경하더라도 함수호출이 종료된 시점에 변경내역이 반영되는 것을 볼 수 있다.
+
+### 문제!
+
+아래 코드는 무엇을 출력할까요 ?!
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        Integer a = 10;
+        System.out.println("Before: " + a);
+        changeInteger(a);
+        System.out.println("After: " + a);
+    }
+
+    public static void changeInteger(Integer param) {
+        param += 10;
+    }
+}
+```
+
+- Integer 는 Object 타입이므로, 첫 구문인 Integer a = 10; 에서 10 은 heap 영역에 할당되고, 10 을 가리키는 레퍼런스변수 a 가 스택에 할당된다.
+함수에 인자를 넘겨줄때에 파라미터는 copied value 를 넘겨받는다.
+- 그러므로, changeInteger(a); 에 의해, param 이라는 레퍼런스 변수가 스택에 할당되고, 이 param 은 main() 함수에서 a 를 가리키던 곳을 똑같이 가리키고 있다.
+- main() 함수에서 레퍼런스하던 a 와 같은 곳을 param 이 가리키고 있으므로 param 에 10 을 더하면, changeInteger() 함수가 종료되고 a 의 값을 출력했을 때 바뀐 값이 출력될 것이다.
+
+### 문제 2
+ 
+```java
+public class Main {
+    public static void main(String[] args) {
+        String s = "hello";
+        changeString(s);
+        System.out.println(s);
+    }
+    public static void changeString(String param) {
+        param += " world";
+    }
+}
+```
+
+changeString() 내부동작만 살펴보면,
+
+- main() 메소드의 s 변수가 레퍼런스하는 “hello” 오브젝트를 param 에 복사하면서 changeString() 메소드가 시작된다.
+- param += " world"; 를 실행하는 것은 heap 에 “hello world” 라는 스트링 오브젝트가 새롭게 할당되는 작업이다.
+- 기존에 “hello” 오브젝트를 레퍼런스하고 있던 param 으로 새롭게 생성된 스트링 오브젝트인 “hello world” 를 레퍼런스 하도록 만드는 것이다.
+- changeString() 함수가 종료되면, 새롭게 생성된 “hello world” 오브젝트를 레퍼런스 하는 param 이라는 변수는 스택에서 pop 되므로 어느것도 레퍼런스 하지 않는 상태가 된다.
+- (아래에서 간략히 살펴보겠지만) 이런 경우 “hello world” 오브젝트는 garbage 로 분류된다.
+- 그러므로, changeString() 메소드를 수행하고 돌아가도 기존에 “hello” 를 레퍼런스하고 있던 s 변수의 값은 그대로이다. Immutable Object 는 불변객체로써, 값이 변하지 않는다. 변경하는 연산이 수행되면 변경하는 것 처럼 보이더라도 실제 메모리에는 새로운 객체가 할당되는 것이다.
+
+> 자바에서 Wrapper class 에 해당하는 Integer, Character, Byte, Boolean, Long, Double, Float, Short 클래스는 모두 Immutable 이다. 그래서 heap 에 있는 같은 오브젝트를 레퍼런스 하고 있는 경우라도, 새로운 연산이 적용되는 순간 새로운 오브젝트가 heap 에 새롭게 할당된다.
