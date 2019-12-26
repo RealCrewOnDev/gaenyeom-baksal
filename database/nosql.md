@@ -52,7 +52,7 @@ NoSQL은 기존의 RDBMS와는 다르게 하나의 고성능 머신에 데이터
 
 ## 기존 관계형 DB와 차이점
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b46ead40-f65a-41bc-a9f1-54a89d3698bc/nosql1.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b46ead40-f65a-41bc-a9f1-54a89d3698bc/nosql1.png)
+ ![nosql1](../images/nosql2.png)
 
 - 관계형 모델을 사용하지 않으며 테이블간의 조인 기능 없음
 - 직접 프로그래밍을 하는 등의 비SQL 인터페이스를 통한 데이터 액세스
