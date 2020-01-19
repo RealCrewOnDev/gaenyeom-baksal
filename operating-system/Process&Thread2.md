@@ -61,10 +61,10 @@
   
 ### References  
 
-https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html
-https://magi82.github.io/process-thread/
-https://jojoldu.tistory.com/118
-https://www.crocus.co.kr/1255
+https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html  
+https://magi82.github.io/process-thread/  
+https://jojoldu.tistory.com/118  
+https://www.crocus.co.kr/1255  
   
 
 
