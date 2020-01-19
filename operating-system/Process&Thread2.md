@@ -59,6 +59,13 @@
 - 멀티스레드 프로그래밍에서 일반적으로 어떤 함수나 변수, 혹은 객체가  
   여러 스레드로부터 동시에 접근이 이루어져도 프로그램의 실행에 문제가 없음을 뜻한다.  
   
+### References  
+
+https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html
+https://magi82.github.io/process-thread/
+https://jojoldu.tistory.com/118
+https://www.crocus.co.kr/1255
+  
 
 
 
