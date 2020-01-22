@@ -22,7 +22,7 @@
 
 - [CPU 스케쥴링](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/operating-system/cpu-scheduling.md)
 - [운영체제](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/operating-system/operating-system.md)
-- [프로세스와 스레드](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/operating-system/Process.md)
+- [프로세스와 스레드](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/operating-system/Process%26Thread%201.md)  
 - [프로세스와 스레드2](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/operating-system/Process%26Thread2.md)
 
 ### 프로그래밍 언어
