@@ -3,7 +3,7 @@
  
  네트워크란?
  
-  [네트워크 데이터 전송 방식]().
+  [네트워크 데이터 전송 방식](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/network/data_transmission_mode.md).
 
 ## 교환방식
 
