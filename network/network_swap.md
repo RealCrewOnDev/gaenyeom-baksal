@@ -28,8 +28,7 @@
 
  - 데이터그램 방식 : 경로 선택이 독립적으로 이루어진다. 패킷 자체를 완전 독립적으로 전송하므로 양이 적거나 신뢰성이 중요하지 않은 환경에서 사용된다. 왜냐하면 미리 경로를 할당 받지 않기 때문에 데이터들의 도착 순서가 바뀌는 경우가 많이 발생하기 때문이다.
 
-![network5](../images/network5.png =50x30)
-![network6](../images/network6.png =50x30)
+<img src="../images/network5.png" width="400" height="300"> &nbsp;&nbsp; <img src="../images/network6.png" width="400" height="300">
 
 #### 패킷 교환의 장점
 
