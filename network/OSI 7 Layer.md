@@ -57,9 +57,19 @@
 - 단순히 데이터를 전기적인 신호로 변환해서 주고받는 기능만 한다.    
 
 
-
-
-
-
 ![OSI7계층](../images/osi.PNG)  
+
+### References  
+
+- ![OSI7Layer쉽게 설명한 곳](http://blog.naver.com/PostView.nhn?blogId=dmstjq12&logNo=220324067296&parentCategoryNo=&categoryNo=32&viewDate=&isShowPopularPosts=false&from=postView)  
+- ![http://www.ciokorea.com/news/36536](http://www.ciokorea.com/news/36536)  
+- <http://itqomcom.blogspot.com/2018/09/osi-7.html>  
+- <https://shlee0882.tistory.com/110>  
+
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+### 추가 자료  
+
+![OSI7계층](../images/osi3.PNG)  
 
