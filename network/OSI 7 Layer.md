@@ -61,8 +61,8 @@
 
 ### References  
 
-- ![OSI7Layer쉽게 설명한 곳](http://blog.naver.com/PostView.nhn?blogId=dmstjq12&logNo=220324067296&parentCategoryNo=&categoryNo=32&viewDate=&isShowPopularPosts=false&from=postView)  
-- ![http://www.ciokorea.com/news/36536](http://www.ciokorea.com/news/36536)  
+- [OSI7Layer쉽게 설명한 곳](http://blog.naver.com/PostView.nhn?blogId=dmstjq12&logNo=220324067296&parentCategoryNo=&categoryNo=32&viewDate=&isShowPopularPosts=false&from=postView)  
+- [http://www.ciokorea.com/news/36536](http://www.ciokorea.com/news/36536)  
 - <http://itqomcom.blogspot.com/2018/09/osi-7.html>  
 - <https://shlee0882.tistory.com/110>  
 
