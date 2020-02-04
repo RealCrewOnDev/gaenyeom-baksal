@@ -1,4 +1,4 @@
-# **네트워크란 무엇인가?**
+# 네트워크란 무엇인가?
 
 네트워크는 Net + Work 의 합성어로써 컴퓨터들이 통신 기술을 이용하여 그물망처럼 연결된 통신 이용 형태를 의미합니다.
 
@@ -8,7 +8,7 @@ IEEE(Institute of Electrical and Electronics Engineers:국제 전기 전자 공�
 
 # **네트워크의 장단점**
 
-**장점**
+### **장점**
 
 네트워크의 장점을 말하자면 우리는 
 
@@ -24,11 +24,13 @@ IEEE(Institute of Electrical and Electronics Engineers:국제 전기 전자 공�
 
 6. 또한 유선으로 책상에서만 PC 작업을 해야 한다는 제약조건이 있다면 **무선전파를 이용한 무선 네트워크로 책상에서 벗어나 웹작업을 할수 있다는 큰 장점**을 가지게 됩니다.
 
-**단점**
+### **단점**
 
 단점으로는 바이러스나 악성코드, 원치 않는 정보를 받게 되며 해킹으로 인한 개인 정보 유출 등 네트워크가 가능 해지면서 보안상의 문제점이 생기며 되며 무엇보다 데이터 변조가 가능하다라고 볼수 있겠습니다.
 
 # **네트워크의 종류**
+
+![네트워크종류](../images/network_1.jpg)  
 
 - PAN ( Personal Area Network ) : 가장 작은 규모의 네트워크
 - **LAN ( Local Area Network ) : 근거리 영역 네트워크**
@@ -38,7 +40,8 @@ IEEE(Institute of Electrical and Electronics Engineers:국제 전기 전자 공�
 - ISDN (Integrated Services Digital Network) : 종합정보 통신망(=BISDN) 전화, 팩스, 데이터 통신, 비디오텍스 등 통신관련 서비스를 종합하여 다루는 통합서비스 디지털 통신망. 디지털 전송방식과 광섬유 케이블 사용. 꿈의 통신망이라 불립니다.
 
 추가적인 네트워크 종류로는 WLAN, SAN, CAN, GAN, VPN, ISDN, Intranet, Extranet..등 분류하게 됩니다.
-[https://t1.daumcdn.net/cfile/tistory/995DCD465CAF21FD07](https://t1.daumcdn.net/cfile/tistory/995DCD465CAF21FD07)
+
+# 이더넷과 인터넷
 
 **네트워크**는 **전송매체의 연결로 구성된 장치들의 모임**이라고 할 수 있습니다. 여기에서 전송매체란 유선의 경우 우리가 흔히 얘기하는 랜케이블이 될 수도 있고 무선 Wi-Fi 를 통해 연결되는 형태를 취할 수도 있습니다.
 
@@ -83,8 +86,6 @@ WAN은 'Wide Area Network'의 약자로서 **'멀리 떨어진 지역을 연�
 - 사용자가 직접 구축, 관리 가능 → 내부 통신 요금이 없음
 - csma/cd 프로토콜 사용
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac738ab0-74de-468d-baf4-03171679ec86/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ac738ab0-74de-468d-baf4-03171679ec86/Untitled.png)
-
 **이더넷의 장점**
 
 - 적은 용량의 데이터를 전송할 경우 성능이 우수하다.
@@ -114,7 +115,7 @@ CSMA/CD 는 LAN의 통신 프로토콜의 종류중 하나이며, 이더넷 환�
 
 **CSMA/CD 충돌 x**
 
-[https://t1.daumcdn.net/cfile/tistory/99C9A03C5C45B32A34](https://t1.daumcdn.net/cfile/tistory/99C9A03C5C45B32A34)
+![CSMA/CD](../images/network_2.png)  
 
 - 전송을 원하는 호스트는 네트워크에 캐리어를 감지해 전송이 가능한지 검사한다. ex) A에서 D로 데이터 프레임을 전송
 - 전송이 가능할 경우 A에서 B, C, D로 브로드캐스트를 하여 D를 찾아낸다. (여기서 D는 유니캐스트로 응답한다)
@@ -122,7 +123,7 @@ CSMA/CD 는 LAN의 통신 프로토콜의 종류중 하나이며, 이더넷 환�
 
 **CSMA/CD 충돌 o**
 
-[https://t1.daumcdn.net/cfile/tistory/99C4B83C5C45B32901](https://t1.daumcdn.net/cfile/tistory/99C4B83C5C45B32901)
+![CSMA/CD](../images/network_3.jpg)  
 
 - 전송을 원하는 호스트는 네트워크에 캐리어를 감지해 전송이 가능한지 검사한다. ex) A에서 D로 데이터 프레임을 전송, B에서 C로 데이터 프레임을 전송)
 - A에서 발생한 프레임과 B에서 발생한 프레임은 공유 매체에서 충돌을 발생한다. (빨간선과 파란선이 만나있는 지점)
@@ -145,7 +146,7 @@ LAN과 LAN을 연결하는 라우터 장치간의 연결, 즉 네트워크 간�
 - LAN에 비해 소고가 느림
 - 주요장비 : 라우터 !! → LAN과 LAN을 연결해주는 게이트웨이
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edac8456-cb6d-4f9f-9145-a7b247d6bba1/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/edac8456-cb6d-4f9f-9145-a7b247d6bba1/Untitled.png)
+![LAN/WAN](../images/network_4.jpg)  
 
 ## 네트워크 **장비**
 
@@ -155,11 +156,11 @@ LAN과 LAN을 연결하는 라우터 장치간의 연결, 즉 네트워크 간�
 - 컴퓨터를 네트워크에 연결하기 위한 확장포트
 - LAN 케이블 → 컴퓨터를 물리적으로 연결하기 위한 케이블
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fcd52d88-4c29-4e1a-8486-349c751c6640/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fcd52d88-4c29-4e1a-8486-349c751c6640/Untitled.png)
+![nic](../images/network_5.jpg)  
 
 ### **허브**
 
-[https://t1.daumcdn.net/cfile/tistory/9913683359AE4C9B17](https://t1.daumcdn.net/cfile/tistory/9913683359AE4C9B17)
+![허브](../images/network_6.jpg) 
 
 - OSI 1계층 **물리 계층** 장비.
 - LAN 케이블의 집선 장치로 여러대의 컴퓨터를 연결
@@ -170,7 +171,7 @@ LAN과 LAN을 연결하는 라우터 장치간의 연결, 즉 네트워크 간�
 
 ### **스위치**
 
-[https://t1.daumcdn.net/cfile/tistory/997C3C3359AE4CAE1E](https://t1.daumcdn.net/cfile/tistory/997C3C3359AE4CAE1E)
+![스위치](../images/network_7.jpg) 
 
 - OSI 2 계층 **데이터 링크 계층** 장비.
 - 허브와 같이 포트에 들어온 신호를 다른 포트에 전송하는 기능.
@@ -181,7 +182,7 @@ LAN과 LAN을 연결하는 라우터 장치간의 연결, 즉 네트워크 간�
 
 ### **라우터**
 
-[https://t1.daumcdn.net/cfile/tistory/99D47E3359AE4CC528](https://t1.daumcdn.net/cfile/tistory/99D47E3359AE4CC528)
+![라우터](../images/network_8.jpg) 
 
 - OSI 3계층 **네트워크 계층** 장비.
 - **서로다른 네트워크를 중계**해주는 장치.
