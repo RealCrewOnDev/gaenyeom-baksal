@@ -17,6 +17,7 @@
 ### 네트워크
 
 - [컴퓨터 네트워크 데이터 전송 방식](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/network/data_transmission_mode.md)  
+- [컴퓨터 네트워크 데이터 교환 방섹](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/network/network_swap.md)
 - [OSI7계층](https://github.com/RealCrewOnDev/gaenyeom-baksal/blob/master/network/OSI%207%20Layer.md)  
 
 ### 운영체제  
