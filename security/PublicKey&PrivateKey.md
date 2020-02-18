@@ -66,7 +66,13 @@ EX) RSA, 전자서명
 7. 사이트는 자신의 개인키로 암호화된 대칭키를 복호화한다.  
 8. 이제 개인과 사이트는 대칭키로 통신할 수 있다.  
 
-### HTTPS  
+![SSL암호화](../images/비밀키와공개키.png)  
+
+
+### References  
+https://javaplant.tistory.com/26  
+https://preamtree.tistory.com/38  
+https://12bme.tistory.com/80  
 
 
 
